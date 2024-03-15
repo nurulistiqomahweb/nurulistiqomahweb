@@ -1,0 +1,399 @@
+/* COLOR */
+:root {
+	--brown1: #9b7145;
+	--brown2: #daaf7c;
+	--brown3: #7e573e;
+	--brown4: #a5693f;
+	--brown5: #927057;
+	--brown6: rgb(125, 91, 67);
+}
+
+* {
+	font-family: "poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../img/bg-body-01.jpg");
+	background-size: 40%;
+}
+
+/* DESKTOP */
+/* ================== */
+/* Navbar */
+.navbar-container {
+	background-color: var(--brown2);
+}
+
+.container-fluid .navbar-brand {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.container-fluid a {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.container-fluid .navbar-nav a.active {
+	color: ghostwhite;
+	font-weight: 600;
+}
+
+/* HERO */
+.hero-container {
+	overflow: hidden;
+}
+
+.hero {
+	width: 100vw;
+	background-image: url("../img/hero-bg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.hero .container-content {
+	justify-content: center;
+}
+
+.hero .ilustration-container {
+	width: 50%;
+}
+.hero .description-container {
+	width: 50%;
+}
+
+.hero .ilustration-container img {
+	width: 100%;
+}
+
+.hero .description-container h1 {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: white;
+	text-shadow: 0.1rem 0.1rem #a5693f;
+}
+
+.hero .description-container h1 span {
+	font-style: italic;
+}
+
+.hero .description-container h2 {
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+	color: var(--brown4);
+}
+
+.hero .description-container h3 {
+	text-align: center;
+	color: var(--brown3);
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.hero .description-container h3 span {
+	color: var(--brown4);
+}
+
+/* .hero .description-container .btn-panduan a {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 1rem;
+	background-color: var(--brown3);
+	padding: 0.8rem 1.8rem;
+	border-radius: 2rem;
+	transition: 0.5s;
+}
+
+.hero .description-container .btn-panduan a:hover {
+	color: var(--brown6);
+	background-color: burlywood;
+	border: 0.2rem solid var(--brown6);
+} */
+
+.hero .description-container .btn {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 1rem;
+	background-color: var(--brown3);
+	padding: 0.8rem 1.8rem;
+	border-radius: 2rem;
+	transition: 0.5s;
+}
+
+.hero .description-container .btn:hover {
+	color: var(--brown6);
+	background-color: burlywood;
+	border: 0.2rem solid var(--brown6);
+}
+
+.hero .description-container h5 {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 600;
+	color: black;
+}
+
+/* CARDS */
+.card-container h1 {
+	font-size: 2.2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-top: -7rem;
+	color: var(--brown3);
+}
+
+.card-container p {
+	font-size: 1.3rem;
+}
+
+.card-container .cards-list {
+	padding-top: 2rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card-container .cards-list .card {
+	width: 15rem;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 5px var(--brown3);
+	margin: 1rem;
+}
+
+.card-container .cards-list .card img {
+	width: 8rem;
+}
+
+/* PDF FILE */
+.pdf-container .pdf-file {
+	background-image: url("../img/hero-bg.jpg");
+	background-size: cover;
+	margin-top: 2rem;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	height: 30rem;
+}
+
+.pdf-container .pdf-file h1 {
+	font-size: 2.2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 2rem;
+	color: white;
+}
+
+.pdf-container .pdf-file p {
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.pdf-container .pdf-file img {
+	width: 14rem;
+	margin: 1.5rem 0 2.5rem 0;
+}
+
+.pdf-container .pdf-file .btn-unduh a {
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	background-color: var(--brown3);
+	padding: 0.5rem 1.5rem;
+	margin-top: 20rem;
+	border-radius: 2rem;
+}
+
+/* GAME */
+.game-container .game {
+	margin-top: 2rem;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	height: 30rem;
+}
+
+.game-container .game h1 {
+	font-size: 2.2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 2rem;
+	color: var(--brown1);
+}
+
+.game-container .game p {
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.game-container .game img {
+	width: 18rem;
+	margin: 1.5rem 0 2.5rem 0;
+}
+
+.game-container .game .btn-unduh a {
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	background-color: var(--brown3);
+	padding: 0.5rem 1.5rem;
+	margin-top: 20rem;
+	border-radius: 2rem;
+}
+
+/* FOOTER */
+
+svg.wave-footer {
+	margin-top: -3rem;
+}
+
+.copyright-container {
+	background-color: var(--brown2);
+	padding: 1rem 0;
+}
+
+.copyright-container h5 {
+	font-size: 1rem;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+
+/* MODALBOX */
+.modal .modal-content .modal-body {
+	font-size: 0.9rem;
+}
+
+.modal .modal-content .modal-body span {
+	font-weight: 600;
+	color: var(--brown1);
+}
+
+.modal .modal-content .modal-body .modal-row .icon-modal {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+.modal .modal-content .modal-body .modal-row {
+	margin: 1rem 0;
+}
+
+.modal .modal-content .modal-body .modal-row .p-modal {
+	width: 80%;
+}
+
+.modal .modal-content .modal-body .modal-row img {
+	width: 3rem;
+	height: fit-content;
+}
+/* /////////////////////////////////////////////////////// */
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+	/* HERO */
+	.hero .container-content {
+		flex-direction: column;
+	}
+
+	.hero .ilustration-container {
+		width: 100%;
+	}
+	.hero .description-container {
+		width: 100%;
+	}
+
+	.hero .description-container h1 {
+		margin-top: -1.2rem;
+		font-size: 1.1rem;
+	}
+
+	.hero .description-container h2 {
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	.hero .description-container h3 {
+		font-size: 1rem;
+		margin-top: -1rem;
+	}
+
+	.hero .description-container .btn {
+		margin-bottom: 1.2rem;
+	}
+
+	/* CARDS */
+	.card-container h1 {
+		font-size: 1.6rem;
+		margin-top: 0;
+	}
+
+	.card-container p {
+		font-size: 0.8rem;
+	}
+
+	.card-container .cards-list .card {
+		width: 18rem;
+		margin: 0.8rem;
+	}
+
+	.card-container .cards-list .card img {
+		width: 10rem;
+	}
+
+	/* PDF */
+	.pdf-container .pdf-file h1 {
+		font-size: 1.6rem;
+		margin-top: 2rem;
+		color: white;
+	}
+
+	.pdf-container .pdf-file p {
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+	.pdf-container .pdf-file img {
+		width: 12rem;
+		margin: 1.5rem 0 2.5rem 0;
+	}
+
+	.pdf-container .pdf-file .btn-unduh a {
+		font-size: 1.2rem;
+	}
+
+	/* GAME */
+	.game-container .game h1 {
+		font-size: 1.6rem;
+		margin-top: 2rem;
+	}
+
+	.game-container .game p {
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+	.game-container .game img {
+		width: 16rem;
+	}
+
+	.game-container .game .btn-unduh a {
+		font-size: 1.2rem;
+	}
+
+	svg.wave-footer {
+		margin-top: 0;
+	}
+
+	.copyright-container {
+		margin-top: -0.2rem;
+	}
+}
